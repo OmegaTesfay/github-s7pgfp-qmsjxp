@@ -1,0 +1,83 @@
+.body {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSglh7gjRwBJMi_LG3yH-TYOUDia9qgVUql17zS9Mq2Iu3PpVBc&s");
+  transition: 10s;
+  width: 98%;
+  height: 50%;
+  background-size: cover;
+}
+
+
+.head {
+  background-color: rgb(233, 190, 0);
+  display: flex;
+  font-family: "Times New Roman", Times, serif;
+  justify-content: center;
+  width: 80vw;
+  padding: 50px;
+  margin: 50px auto 20px auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+.title {
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  margin: 5px auto 5px auto;
+}
+
+.big-div {
+  background: rgba(0, 0, 0, 0);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.litto-div {
+  background: rgb(238, 240, 149);
+  width: 21%;
+  height: 200px;
+  display: inline-flex;
+  margin: 60px auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
